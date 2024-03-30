@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="styles/custom.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="col-md-1x d-none d-md-block bg-light sidebar">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column" style="font-size: 20px;">
+        <li class="nav-item">
+            <a class="nav-link active-special" href="#">
+              <i class="fas fa-bookmark"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-chart-line"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-clock"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-code"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-people-arrows"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-dollar-sign"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-crown"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-user"></i>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <div class="bottom-icon">
+    <a class="nav-link" href="#">
+        <i class="fas fa-list"></i>
+    </a>
+  </div>
+</nav>
+
+<div class="table-container col ml-xl-5 pl-xl-4 col-lg-3 px-md-2">
+  <table id="table1" class="table table-hover mb-0">
+  <thead>
+    <tr class="text-center" style="font-size: 12px;">
+      <th scope="col">EURUSD <br> <p style="color: blue; margin: 0;"><i class="fas fa-dollar-sign"></i> 1.08623</p></th>
+      <th scope="col">XAUUSD <br> <p style="color: blue; margin: 0;"><i class="fas fa-dollar-sign"></i> 2193.60</p></th>
+    </tr>
+  </thead>
+  <thead>
+      <tr>
+        <td colspan="2">
+          <input type="text" class="form-control border-0" placeholder="Search Eg.EUR/USD ,BTC" style="background-color: rgb(235, 233, 233);"></i>
+        </td>
+      </tr>
+  </thead>
+  <thead> 
+      <tr class="text-center" >
+        <th style="border-top: 20px; border-color: blue;">FAVOURITES</th>
+        <th colspan="2">ALL SYMBOLS</th>
+      </tr>
+  </thead>
+  </table>
+  <table id="table1" class="table table-hover mb-0" style="border-top: 2px;">
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">AUDUSD<br><p style="color: blue; margin: 0;">0.31% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">0.65583<br></p><p style="margin: 0; font-size: 9px;">L:0.65315</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">0.65590<br></p><p style="margin: 0; font-size: 9px;">H:0.65588</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">EURUSD<br><p style="color: blue; margin: 0;">0.23% <i class="fas fa-chevron-up"></i> 8</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.08623<br></p><p style="margin: 0; font-size: 9px;">L:1.08358</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.08631<br></p><p style="margin: 0; font-size: 9px;">H:1.08624</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">GBPUSD<br><p style="color: blue; margin: 0;">0.22% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.23342<br></p><p style="margin: 0; font-size: 9px;">L:1.26343</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.26649<br></p><p style="margin: 0; font-size: 9px;">H:1.26678</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: red; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: red; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: red; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: blue; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: blue; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  <thead class="mt-0">
+    <tr class="text-center" style="font-size: 12px; font-weight: 500;">
+        <td class="text-left">USDCAD<br><p style="color: red; margin: 0;">-0.13% <i class="fas fa-chevron-up"></i> 7</p></td>     
+        <td  colspan="2"><p style="color: blue; margin: 0;">1.35674<br></p><p style="margin: 0; font-size: 9px;">L:1.35652</p></td>     
+        <td  colspan="2"><p style="color: red; margin: 0;">1.35681<br></p><p style="margin: 0; font-size: 9px;">H:1.35908</p></td>     
+    </tr>
+  </thead>
+  </table>
+  </div>
+  
+  <div class="table-container">
+  <table id="table2">
+    <div class="container vw-100">
+      <div class="row">
+        <div class="col pt-xl-2 pb-xl-3">
+          <h5 class="m-0">Position (8)</h5>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Cancel all order</button>
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Cancel limit order</button>
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Cancel stop order</button>
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Close all position</button>
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Close profitable position</button>
+          <button type="button" class="mt-xl-2 btn btn-secondary btn-sm btn-sm-custom">Close losing position</button>
+        </div>
+      </div>
+    </div>
+  <table class="table table-auto">
+    <thead class="text-center" style="font-size: 12px; font-family: sans-serif;">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">TIME</th>
+        <th scope="col">SYMBOL <i class="fas fa-sort"></i></th>
+        <th scope="col">ORDER</th>
+        <th scope="col">LOT</th>
+        <th scope="col">PRICE</th>
+        <th scope="col">SL</th>
+        <th scope="col">TP</th>
+        <th scope="col">SWAP</th>
+        <th scope="col">LTP</th>
+        <th scope="col">PROFIT</th>
+      </tr>
+    </thead>
+    <tbody class="text-center justify-content-center" style="font-size: 12px; line-height: 1.10;">
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr style="background-color: rgb(235, 233, 233);">
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78 <i class="fas fa-cross" style="color: red;"></i></td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-buy">BUY</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td>
+          <div class="inner-cell-sell">SELL</div>
+        </td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr class="text-center" style="background-color: lightgray; font-weight: 500;">
+        <td colspan="10" class="text-center">Balance: <b style="color: blue;">132280.01</b> | Equity: <b style="color: blue;">132632.98</b> | Used Margin: <b style="color: blue;">57.12</b> | Free Margin: <b style="color: blue;">132675.86</b> | Margin Level: <b style="color: blue;">232200.60%</b> </td>     
+        <td> <b style="color: blue;">352.86</b></td>     
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td><b style="color: blue;">BUY</b>/limit</td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+      <tr>
+        <td>5460</td>
+        <td>2024-03-21 18:28:51</td>
+        <td>BTCUSD</td>
+        <td><b style="color: blue;">BUY</b>/limit</td>
+        <td>0.01</td>
+        <td>65509.20</td>
+        <td></td>
+        <td></td>
+        <td>-9.6</td>
+        <td>70987.24</td>
+        <td>-54.78</td>
+      </tr>
+    </tbody>
+  </table>
+  </table>
+  </div>
+</body>
+</html>
