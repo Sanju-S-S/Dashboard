@@ -13,13 +13,13 @@
     top: 0;
     height: calc(100vh - 48px);
     overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    overflow-y: auto; 
   }
 
   .nav-link .fas {
-    color: grey; /* Default color */
+    color: grey; 
     display: inline-flex;
-    align-items: center; /* Center vertically */
+    align-items: center; 
   }
 
   .nav-link.active .fas {
@@ -39,13 +39,13 @@
   }
 
   .table-container {
-    float: left; /* Use float to place tables side by side */
-    margin-right: 20px; /* Add spacing between tables */
+    float: left; 
+    margin-right: 20px;
   }
 
   table {
-    border-collapse: collapse; /* Optional: Collapsing table borders */
-    width: 200px; /* Set a fixed width for each table */
+    border-collapse: collapse;
+    width: 200px;
   }
 
   .table-2 {
@@ -65,8 +65,8 @@
     padding-right: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
-    background-color: lightcoral; /* Set background color */
-    display: inline-block; /* Display as inline-block */
+    background-color: lightcoral;
+    display: inline-block;
     border-radius: 2px; 
     box-sizing: border-box;
   }
@@ -76,8 +76,8 @@
     padding-right: 6px;
     padding-top: 4px;
     padding-bottom: 4px;
-    background-color: rgb(128, 128, 255); /* Set background color */
-    display: inline-block; /* Display as inline-block */
+    background-color: rgb(128, 128, 255);
+    display: inline-block;
     border-radius: 2px; 
     box-sizing: border-box;
   }
